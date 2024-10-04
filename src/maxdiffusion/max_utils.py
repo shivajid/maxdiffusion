@@ -560,4 +560,5 @@ def get_global_batch_size(config):
 
 
 def maybe_initialize_jax_distributed_system(raw_keys):
-  jax.distributed.initialize()
+  #jax.distributed.initialize()
+  print("maybe_initialize_jax_distributed_system passed..")
